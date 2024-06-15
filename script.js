@@ -3,15 +3,15 @@ document.getElementById('startButton').addEventListener('click', function() {
     let messageContainer = document.getElementById('messageContainer');
     messaggi = ["mia", "sei bellissima", "ti amo per sempre", "ti amo", "sei la mia vita", "amore mio"];
     let starImages = [
-        'images/star1.png',
-        'images/star2.png',
-        'images/star3.png',
-        'images/star4.png',
-        'images/star5.png',
-        'images/star6.png',
-        'images/star7.png',
-        'images/star8.png',
-        'images/star9.png'
+        'star1.png',
+        'star2.png',
+        'star3.png',
+        'star4.png',
+        'star5.png',
+        'star6.png',
+        'star7.png',
+        'star8.png',
+        'star9.png'
     ];
     for (let i = 0; i < 10; i++) { // Generiamo 10 messaggi
         let message = document.createElement('div');
